@@ -3,6 +3,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+header {
+    margin-bottom: 130px;
+}
 
 .banner {
     background-image: url(../images/banner/banner3.png);
@@ -49,6 +52,184 @@
     font-weight: 600;
     font-size: 20px;
 
+    background: #FFFFFF;
+    border-radius: 5px;
+
 
     color: #005FAC;
+}
+
+.btn-secondary {
+    border: none;
+    padding: 20px 35px;
+    font-weight: 600;
+    font-size: 20px;    
+    color: #FFFFFF;
+
+
+    background: #005FAC;
+    border-radius: 8px;
+}
+
+
+
+/* failure section style */
+
+main {
+    width: 1141px;
+    margin: 0 auto;
+}
+
+.failures {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:90px;
+
+}
+
+section {
+    margin-bottom: 130px;
+}
+
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-description {
+    color: #444343;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.failureText ul {
+    color: #444343;
+}
+
+.failureText li {
+    margin-bottom: 8px;
+}
+
+.failureText {
+    width: 416px;
+}
+
+
+
+
+/* planning section styles */
+.my-plans {
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+
+}
+
+.plan * {
+    margin-bottom: 10px;
+}
+
+.plan h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan p {
+    color: #737272;
+}
+
+
+/* watch section  */
+.watch .watch-call {
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+
+
+}
+
+.watch-call {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 65px;
+
+}
+
+.watch-call h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    width: 459px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+
+    background: #151414;
+    color: #FFFFFF;
+    padding: 130px;
+
+
+}
+
+.footer-texts {
+    width: 485px;
+}
+
+.footer-texts p {
+    margin-bottom: 16px;
+}
+
+.footer input {
+    color: #F8F8F8;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-title2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.footer-texts a {
+    text-decoration: none;
+    margin-right: 16px;
+    margin-top: 32px;
+}
+
+/* .footer-texts a:first-child{
+    margin-left: 0;
+} */
+
+
+.footer-form input {
+    padding: 21px;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: black;
+    width: 325px;
+    display: block;
+    margin-bottom: 16px;
 }
